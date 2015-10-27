@@ -1,0 +1,12 @@
+{
+    "packageUrl" : "http://localhost:8080/res",
+    "remoteManifestUrl" : "http://localhost:8080/project.manifest",
+    "remoteVersionUrl" : "http://localhost:8080/version.manifest",
+    "version" : "1.0.0",
+    "groupVersions" : {
+        "1" : "1.0.0"
+    },
+    "engineVersion" : "3.0 rc0",
+    "searchPaths" : [
+    ]
+}

@@ -1,7 +1,7 @@
 # cocos2d-jquery
 Now Use Cocos2dx Like JQuery way :)<br>  
 现在你可以用使用 jquery来方式来操作 cocos2dx~<br>  
-###Demo看这里: [http://cdn.original-fun.com/cocos-jquery/index.html](http://cdn.original-fun.com/cocos-jquery/index.html)  
+###Demo看这里: [http://staticbin.sinaapp.com/static/cocos2d-jquery/index.html](http://staticbin.sinaapp.com/static/cocos2d-jquery/index.html)  
 
 #### 同时支持 `HTML5` 和 `jsb`
 ![image](http://wshxbqq-wshxbqq.stor.sinaapp.com/2015-10-27_14-09-07_151___new.gif)
