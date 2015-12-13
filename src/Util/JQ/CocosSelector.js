@@ -22,6 +22,12 @@ function CocosSelector(root, selector) {
 
 }
 
+
+/**
+*解决跳跃式父子关系查询
+*如 $("#panel .112")  112可能在 panel的子元素的子元素的子元素里.
+*以下方法检查一个 node 是否满足一个 复合式选择器字符串.
+*/
 CocosSelector.nodeMatch = function (node, selector) {
     var result = false;
     var selectorArr = selector.split(' ');
@@ -67,6 +73,13 @@ CocosSelector.nodeMatch = function (node, selector) {
 
 }
 
+
+
+
+/**
+* 简单查询一个node 是否满一个 单点选择器
+* 如 #id 则仅查看 该 node 是否 name=id
+*/
 CocosSelector.singleNodeMatch = function(node, selector) {
     var f = selector[0];
     switch (f) {
