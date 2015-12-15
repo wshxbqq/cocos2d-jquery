@@ -5,12 +5,7 @@
         }
     }
 }
-
-jqCore.prototype.remove = function () {
-    this.each(function (n, i) {
-        i.removeFromParent();
-    });
-}
+ 
 
 jqCore.prototype.data = function (obj) {
     this.each(function (n, i) {
@@ -18,6 +13,25 @@ jqCore.prototype.data = function (obj) {
     });
     return this;
  
+}
+
+jqCore.prototype.clean = function () {
+    for (var i = 0; i < this.items.length; i++) {
+        delete (this[i]);
+    }
+    this.items = [];
+    return this;
+};
+
+
+
+jqCore.prototype.accept = function (arr) {
+    this.items = arr;
+    for (var i = 0; i < this.items.length; i++) {
+        this[i] = this.items[i];
+    };
+    this.length = this.items.length;
+    return this;
 }
 
 

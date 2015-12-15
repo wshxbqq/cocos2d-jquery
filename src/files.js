@@ -12,6 +12,9 @@ var jsFiles = [
     "src/Util/JQ/jqCore/util.js",
     "src/Util/JQ/jqCore/animate.js",
     "src/Util/JQ/jqCore/event.js",
+    "src/Util/JQ/jqCore/property.js",
+    "src/Util/JQ/jqCore/operation.js",
+
     
     "src/Util/JQ/extend/ajax.js",
     "src/Util/JQ/extend/util.js",

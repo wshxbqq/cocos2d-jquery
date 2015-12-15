@@ -58,7 +58,7 @@ var StartLayer = cc.Layer.extend({
             });
 
         });
-
+        
 
     },
     
@@ -68,6 +68,7 @@ var StartLayer = cc.Layer.extend({
 
     onEnter: function () {
         this._super();
+        window.bs = $("Button");
     },
 
     onExit: function () {

@@ -41,7 +41,7 @@
                 })
             }
         } else {
-            cc.log("Not Have Fun Named setString");
+            cc.log("No Function Named: setString");
         }
     });
    

@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="Layer_Cfg" ID="2d0b894d-4e6e-47ef-91f8-823ec82c9049" Version="2.3.2.3" />
+<GameFile>
+  <PropertyGroup Name="Layer_Cfg" Type="Layer" ID="2d0b894d-4e6e-47ef-91f8-823ec82c9049" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -114,4 +114,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

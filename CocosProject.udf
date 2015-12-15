@@ -1,18 +1,10 @@
-<UserData Version="2.3.2.3">
+<UserData Version="2.3.3.0">
   <Properties>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
         <LastRunType Value="Windows" />
-      </Value>
-    </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="Layer_Cfg.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="Layer_Cfg.csd" />
       </Value>
     </Item>
   </Properties>

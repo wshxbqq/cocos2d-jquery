@@ -1,29 +1,54 @@
 ﻿
-jqCore.prototype.hide = function () {
-    this.each(function (n, i) {
-        i.setVisible(false);
-    })
+jqCore.prototype.hide = function (num) {
+    if (typeof (num) === "number") {
+        this.each(function (n, i) {
+            $(i).fadeOut(num, function (d) {
+                i.setVisible(false);
+            });
+            
+        })
+    } else {
+        this.each(function (n, i) {
+            i.setVisible(false);
+        })
+    }
     return this;
 }
 
-jqCore.prototype.show = function () {
-    this.each(function (n, i) {
-        i.setVisible(true);
-    })
+jqCore.prototype.show = function (num) {
+    if (typeof (num) === "number") {
+        this.each(function (n, i) {
+            i.setVisible(true);
+            $(i).fadeIn(num, function (d) {
+            });
+
+        })
+    } else {
+        this.each(function (n, i) {
+            i.setVisible(true);
+        })
+    }
     return this;
 }
 
 jqCore.prototype.fadeOut = function (during, cb) {
     this.each(function (n, i) {
+        
         var action = cc.fadeOut(during);
-        var callback = cc.callFunc(function (d) {
-            if (cb) {
-                cb(d);
-            }
+        var seq;
+        if (n === 0) {
+            var callback = cc.callFunc(function (d) {
+                if (cb) {
+                    cb(d);
+                }
 
-        });
+            });
 
-        var seq = cc.sequence(action, callback);
+            seq = cc.sequence(action, callback);
+        } else {
+            seq = cc.sequence(action);
+        }
+        
 
         i.runAction(seq);
     });
@@ -33,18 +58,37 @@ jqCore.prototype.fadeOut = function (during, cb) {
 jqCore.prototype.fadeIn = function (during, cb) {
     this.each(function (n, i) {
         var action = cc.fadeIn(during);
-        var callback = cc.callFunc(function (d) {
-            if (cb) {
-                cb(d);
-            }
+        var seq;
+        if (n === 0) {
+            var callback = cc.callFunc(function (d) {
+                if (cb) {
+                    cb(d);
+                }
 
-        });
+            });
 
-        var seq = cc.sequence(action, callback);
-
+            seq = cc.sequence(action, callback);
+        } else {
+            seq = cc.sequence(action);
+        }
         i.runAction(seq);
     });
     return this;
+}
+
+
+
+jqCore.prototype.toggle = function (during, cb) {
+    var f = this[0].getOpacity();
+    if (f) {
+        this.fadeOut(during, function (d) {
+            cb(d);
+        });
+    } else {
+        this.fadeIn(during, function (d) {
+            cb(d);
+        });
+    }
 }
 
 jqCore.prototype.animate = function (condition, during, cb) {
