@@ -4,7 +4,7 @@ Now Use Cocos2dx Like JQuery way :)<br>
 ###Demo看这里: [http://wshxbqq.sinaapp.com/static/cocosjq/html5/index.html](http://wshxbqq.sinaapp.com/static/cocosjq/html5/index.html)  
 
 #### 同时支持 `HTML5` 和 `jsb`
-![image](http://wshxbqq-wshxbqq.stor.sinaapp.com/2015-10-27_14-09-07_151___new.gif)
+![image](http://wshxbqq-wshxbqq.stor.sinaapp.com/2015-12-18_15-16-44_246___cocosjq1.gif)
 ##安装方法:
   引用 `release/cocos.jquery.min.js` 到你的项目即可
   
