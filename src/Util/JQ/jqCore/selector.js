@@ -159,15 +159,13 @@ jqCore.prototype.parent = function () {
 
 
 jqCore.prototype.filter = function (cbFun) {
-    var sub = $();
     var _queryPool = [];
     this.each(function (n, i) {
         if (cbFun(i)) {
             _queryPool.push(i);
         }
     });
-    sub.accept(_queryPool);
-    return sub;
+    return $(_queryPool);
 };
 
 

@@ -44,17 +44,22 @@
     ]
     // "jsList" sets the list of js files in your game.
  }
- 
+ *
  */
 
-cc.game.onStart = function(){
+cc.game.onStart = function () {
 
+    // Pass true to enable retina display, disabled by default to improve performance
+    cc.view.enableRetina(false);
+    // Adjust viewport meta
     cc.view.adjustViewPort(true);
-    cc.view.setDesignResolutionSize(640, 1000, cc.ResolutionPolicy.SHOW_ALL);
+    // Setup the resolution policy and design resolution size
+    cc.view.setDesignResolutionSize(640, 960, cc.ResolutionPolicy.SHOW_ALL);
+    // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
-    cc.loader.loadJs(["src/AssetsManager.js"], function (err) {
-        var scene = new AssetsManagerLoaderScene();
-        scene.run();
-    })
+    //load resources
+    cc.LoaderScene.preload(g_resources, function () {
+        cc.director.runScene(new StartScence());
+    }, this);
 };
 cc.game.run();

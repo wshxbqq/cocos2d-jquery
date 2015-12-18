@@ -1,0 +1,50 @@
+<Solution>
+  <PropertyGroup Name="cocos-jq-test" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="Layer_Menu.csd" Type="Layer" />
+        <Project Name="Layer1.csd" Type="Layer" />
+        <Folder Name="public">
+          <Folder Name="bg">
+            <Image Name="1.jpg" />
+            <Image Name="2.jpg" />
+            <Image Name="3.jpg" />
+            <Image Name="4.jpg" />
+          </Folder>
+          <Image Name="common_bt_blue_l3.png" />
+          <Image Name="common_bt_green_l3.png" />
+          <Image Name="common_bt_red_n.png" />
+          <Image Name="common_bt_yellow_l5.png" />
+          <Image Name="common_icon_bg2.png" />
+          <Image Name="common_icon_bg3.png" />
+          <Image Name="common_icon_bg_4.png" />
+          <Image Name="common_icon_bg_4_d.png" />
+          <Image Name="common_icon_bg_5.png" />
+          <Image Name="ico.png" />
+          <Image Name="popup_bg.png" />
+          <Image Name="btnHcShopStarterPackageArrow.png" />
+          <Folder Name="Item">
+            <Image Name="egg_red.png" />
+            <Image Name="egg_yellow.png" />
+            <Image Name="heart_red.png" />
+            <Image Name="heart_yellow.png" />
+            <Image Name="rhombus_red.png" />
+            <Image Name="rhombus_yellow.png" />
+            <Image Name="star_red.png" />
+            <Image Name="star_yellow.png" />
+          </Folder>
+          <Image Name="common_pop_bg_wood2.png" />
+          <Image Name="unit_18_1.png" />
+          <Image Name="Octocat.png" />
+        </Folder>
+        <Project Name="Layer_Selector.csd" Type="Layer" />
+        <Project Name="Layer_Event.csd" Type="Layer" />
+        <Project Name="Layer_Animate.csd" Type="Layer" />
+        <Project Name="Layer_Operation.csd" Type="Layer" />
+        <Project Name="Layer_Ajax.csd" Type="Layer" />
+        <Project Name="Layer_Other.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

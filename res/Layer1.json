@@ -1,0 +1,405 @@
+{
+  "ID": "7edede49-4c3f-45b1-a406-c99e6ad58057",
+  "Version": "2.3.3.0",
+  "Name": "Layer1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 7,
+        "Children": [
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/bg/4.jpg",
+              "Plist": ""
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 639,
+            "Scale9Height": 956,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 8,
+            "Children": [
+              {
+                "FontSize": 60,
+                "ButtonText": "Start",
+                "TextColor": {
+                  "R": 67,
+                  "G": 226
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "public/common_bt_yellow_l5.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 80,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 311.5515,
+                  "Y": 262.0537
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4868,
+                  "Y": 0.273
+                },
+                "PreSize": {
+                  "X": 0.4688,
+                  "Y": 0.1187
+                },
+                "LeftMargin": 161.5515,
+                "RightMargin": 178.4485,
+                "TopMargin": 640.9463,
+                "BottomMargin": 205.0537,
+                "Tag": 12,
+                "ActionTag": -2094633318,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 114.0
+                },
+                "Name": "Button_Start",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 48,
+                "ButtonText": "GitHub",
+                "TextColor": {
+                  "R": 49,
+                  "B": 0
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "public/common_bt_yellow_l5.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 80,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 356.2425,
+                  "Y": 115.4853
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5566,
+                  "Y": 0.1203
+                },
+                "PreSize": {
+                  "X": 0.3125,
+                  "Y": 0.1083
+                },
+                "LeftMargin": 256.2425,
+                "RightMargin": 183.7575,
+                "TopMargin": 792.5147,
+                "BottomMargin": 63.4853,
+                "Tag": 27,
+                "ActionTag": 1493254823,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 104.0
+                },
+                "Name": "Button_GitHub",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -860360832,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/ico.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 310.5549,
+              "Y": 744.246
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4852,
+              "Y": 0.7753
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.3125
+            },
+            "LeftMargin": 160.5549,
+            "RightMargin": 179.4451,
+            "TopMargin": 65.754,
+            "BottomMargin": 594.246,
+            "Tag": 9,
+            "ActionTag": 1791603828,
+            "Size": {
+              "X": 300.0,
+              "Y": 300.0
+            },
+            "Name": "ico_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 60,
+            "LabelText": "Now Use Cocos2dx-Js",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.843,
+              "Y": 517.1505
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4998,
+              "Y": 0.5387
+            },
+            "PreSize": {
+              "X": 0.8906,
+              "Y": 0.0625
+            },
+            "LeftMargin": 34.843,
+            "RightMargin": 35.157,
+            "TopMargin": 412.8495,
+            "BottomMargin": 487.1505,
+            "Tag": 10,
+            "ActionTag": -844289744,
+            "Size": {
+              "X": 570.0,
+              "Y": 60.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 60,
+            "LabelText": "In Jquery Way",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.5556,
+              "Y": 412.5343
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5009,
+              "Y": 0.4297
+            },
+            "PreSize": {
+              "X": 0.6094,
+              "Y": 0.0625
+            },
+            "LeftMargin": 125.5556,
+            "RightMargin": 124.4444,
+            "TopMargin": 517.4657,
+            "BottomMargin": 382.5343,
+            "Tag": 11,
+            "ActionTag": -1985297907,
+            "Size": {
+              "X": 390.0,
+              "Y": 60.0
+            },
+            "Name": "Text_1_0",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/Octocat.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 194.6971,
+              "Y": 123.1776
+            },
+            "Scale": {
+              "ScaleX": 0.1763,
+              "ScaleY": 0.1763
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3042,
+              "Y": 0.1283
+            },
+            "PreSize": {
+              "X": 1.25,
+              "Y": 0.6927
+            },
+            "LeftMargin": -205.3029,
+            "RightMargin": 45.3029,
+            "TopMargin": 504.3224,
+            "BottomMargin": -209.3224,
+            "Tag": 29,
+            "ActionTag": 1255714472,
+            "Size": {
+              "X": 800.0,
+              "Y": 665.0
+            },
+            "Name": "Octocat_10",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "public/bg/4.jpg",
+        "public/common_bt_yellow_l5.png",
+        "public/ico.png",
+        "public/Octocat.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

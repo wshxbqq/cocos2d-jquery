@@ -1,0 +1,442 @@
+{
+  "ID": "9ff268cc-b2cc-4814-878e-fbfbe46bafaa",
+  "Version": "2.3.3.0",
+  "Name": "Layer_Ajax",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 65,
+        "Children": [
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/bg/3.jpg",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 640,
+            "Scale9Height": 960,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 67,
+            "ActionTag": 1838615749,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/btnHcShopStarterPackageArrow.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 85,
+            "Scale9Height": 74,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 72.5337,
+              "Y": 891.5084
+            },
+            "Scale": {
+              "ScaleX": -1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1133,
+              "Y": 0.9287
+            },
+            "PreSize": {
+              "X": 0.1797,
+              "Y": 0.1
+            },
+            "LeftMargin": 15.0337,
+            "RightMargin": 509.9663,
+            "TopMargin": 20.4916,
+            "BottomMargin": 843.5084,
+            "Tag": 66,
+            "ActionTag": 1418954736,
+            "Size": {
+              "X": 115.0,
+              "Y": 96.0
+            },
+            "Name": "Button_Back",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "$.ajax",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 121.2842,
+              "Y": 160.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1895,
+              "Y": 0.1667
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 47.7842,
+            "RightMargin": 445.2158,
+            "TopMargin": 759.5,
+            "BottomMargin": 119.5,
+            "Tag": 35,
+            "ActionTag": 1843093479,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_Ajax",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "$.get",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 328.2231,
+              "Y": 160.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5128,
+              "Y": 0.1667
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 254.7231,
+            "RightMargin": 238.2769,
+            "TopMargin": 759.5,
+            "BottomMargin": 119.5,
+            "Tag": 36,
+            "ActionTag": 1183268028,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_get",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "$.post",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 527.008,
+              "Y": 160.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8234,
+              "Y": 0.1667
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 453.508,
+            "RightMargin": 39.492,
+            "TopMargin": 759.5,
+            "BottomMargin": 119.5,
+            "Tag": 37,
+            "ActionTag": 1849434907,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_Post",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/popup_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 29,
+            "Scale9OriginY": 29,
+            "Scale9Width": 32,
+            "Scale9Height": 32,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 323.9279,
+              "Y": 589.1977
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5061,
+              "Y": 0.6137
+            },
+            "PreSize": {
+              "X": 0.9438,
+              "Y": 0.3125
+            },
+            "LeftMargin": 21.9279,
+            "RightMargin": 14.0721,
+            "TopMargin": 220.8023,
+            "BottomMargin": 439.1977,
+            "Tag": 39,
+            "ActionTag": -2100632842,
+            "Size": {
+              "X": 604.0,
+              "Y": 300.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 24,
+            "LabelText": "See Console.",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 53.3494,
+              "Y": 708.8694
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0834,
+              "Y": 0.7384
+            },
+            "PreSize": {
+              "X": 0.8438,
+              "Y": 0.2323
+            },
+            "LeftMargin": 53.3494,
+            "RightMargin": 46.6506,
+            "TopMargin": 251.1306,
+            "BottomMargin": 485.8694,
+            "Tag": 38,
+            "ActionTag": -1136599025,
+            "Size": {
+              "X": 540.0,
+              "Y": 223.0
+            },
+            "Name": "Text_Code",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "public/bg/3.jpg",
+        "public/btnHcShopStarterPackageArrow.png",
+        "public/common_bt_yellow_l5.png",
+        "public/popup_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

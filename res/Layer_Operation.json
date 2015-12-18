@@ -1,0 +1,467 @@
+{
+  "ID": "53a7a010-741e-407a-9b05-300360907b85",
+  "Version": "2.3.3.0",
+  "Name": "Layer_Operation",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "public/bg/2.jpg",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 640,
+            "Scale9Height": 960,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 57,
+            "Children": [
+              {
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "public/common_icon_bg_5.png",
+                  "Plist": ""
+                },
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 44,
+                "Scale9OriginY": 34,
+                "Scale9Width": 46,
+                "Scale9Height": 38,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 79.8879,
+                  "Y": 330.6953
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1248,
+                  "Y": 0.3445
+                },
+                "PreSize": {
+                  "X": 0.7813,
+                  "Y": 0.5208
+                },
+                "LeftMargin": 79.8879,
+                "RightMargin": 60.1121,
+                "TopMargin": 129.3047,
+                "BottomMargin": 330.6953,
+                "Tag": 64,
+                "ActionTag": 111518708,
+                "Size": {
+                  "X": 500.0,
+                  "Y": 500.0
+                },
+                "Name": "Panel_Stage",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1776212343,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/btnHcShopStarterPackageArrow.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 85,
+            "Scale9Height": 74,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 72.5337,
+              "Y": 891.5084
+            },
+            "Scale": {
+              "ScaleX": -1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1133,
+              "Y": 0.9287
+            },
+            "PreSize": {
+              "X": 0.1797,
+              "Y": 0.1
+            },
+            "LeftMargin": 15.0337,
+            "RightMargin": 509.9663,
+            "TopMargin": 20.4916,
+            "BottomMargin": 843.5084,
+            "Tag": 59,
+            "ActionTag": -1090048000,
+            "Size": {
+              "X": 115.0,
+              "Y": 96.0
+            },
+            "Name": "Button_Back",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "Empty",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 171.1589,
+              "Y": 116.2371
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2674,
+              "Y": 0.1211
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 97.6589,
+            "RightMargin": 395.3411,
+            "TopMargin": 803.2629,
+            "BottomMargin": 75.7371,
+            "Tag": 60,
+            "ActionTag": 1624755191,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_Empty",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "Append",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 176.3018,
+              "Y": 238.8443
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2755,
+              "Y": 0.2488
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 102.8018,
+            "RightMargin": 390.1982,
+            "TopMargin": 680.6557,
+            "BottomMargin": 198.3443,
+            "Tag": 61,
+            "ActionTag": -667294786,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_Append",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "After",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 459.6523,
+              "Y": 243.5598
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7182,
+              "Y": 0.2537
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 386.1523,
+            "RightMargin": 106.8477,
+            "TopMargin": 675.9402,
+            "BottomMargin": 203.0598,
+            "Tag": 62,
+            "ActionTag": 1593577283,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_After",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "Remove",
+            "TextColor": {
+              "G": 0,
+              "B": 107
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "public/common_bt_yellow_l5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 80,
+            "Scale9Height": 46,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 458.5781,
+              "Y": 118.0906
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7165,
+              "Y": 0.123
+            },
+            "PreSize": {
+              "X": 0.2297,
+              "Y": 0.0844
+            },
+            "LeftMargin": 385.0781,
+            "RightMargin": 107.9219,
+            "TopMargin": 801.4094,
+            "BottomMargin": 77.5906,
+            "Tag": 63,
+            "ActionTag": -1133635643,
+            "Size": {
+              "X": 147.0,
+              "Y": 81.0
+            },
+            "Name": "Button_Remove",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "public/bg/2.jpg",
+        "public/btnHcShopStarterPackageArrow.png",
+        "public/common_bt_yellow_l5.png",
+        "public/common_icon_bg_5.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

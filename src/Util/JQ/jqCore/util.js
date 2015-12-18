@@ -7,11 +7,28 @@
 }
  
 
-jqCore.prototype.data = function (obj) {
-    this.each(function (n, i) {
-        i.userData = obj;
-    });
-    return this;
+jqCore.prototype.data = function (key, val) {
+    if (typeof (val) != "undefined") {
+        this.each(function (n, i) {
+            if (!i.jqUserData) {
+                i.jqUserData = {};
+            }
+            i.jqUserData[key] = val;
+        });
+        return this;
+    } else {
+        if (this.length > 0) {
+            var _jqData = this.get(0)["jqUserData"];
+            if (_jqData[key]) {
+                return _jqData[key];
+            }
+            
+        }
+
+    }
+
+    
+    
  
 }
 

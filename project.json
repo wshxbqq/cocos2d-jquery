@@ -2,7 +2,7 @@
     "project_type": "javascript",
 
     "debugMode" : 1,
-    "showFPS" : false,
+    "showFPS" : true,
     "frameRate" : 60,
     "id" : "gameCanvas",
     "renderMode" : 0,
@@ -11,6 +11,52 @@
     "modules" : ["cocos2d", "cocostudio"],
 
     "jsList" : [
-        
+      "src/resource.js",
+
+
+ 
+
+    "src/Util/JQ/CocosSelector.js",
+    "src/Util/JQ/jqCore.js",
+    "src/Util/JQ/JQ.js",
+
+    "src/Util/JQ/jqCore/selector.js",
+    "src/Util/JQ/jqCore/util.js",
+    "src/Util/JQ/jqCore/animate.js",
+    "src/Util/JQ/jqCore/event.js",
+    "src/Util/JQ/jqCore/property.js",
+    "src/Util/JQ/jqCore/operation.js",
+
+    
+    "src/Util/JQ/extend/ajax.js",
+    "src/Util/JQ/extend/util.js",
+
+
+
+
+
+      "src/MenuScence/MenuLayer.js",
+      "src/MenuScence/MenuScence.js",
+
+      "src/AjaxScence/AjaxLayer.js",
+      "src/AjaxScence/AjaxScence.js",
+
+      "src/AnimateScence/AnimateLayer.js",
+      "src/AnimateScence/AnimateScence.js",
+
+      "src/OtherScence/OtherLayer.js",
+      "src/OtherScence/OtherScence.js",
+
+      "src/OperationScence/OperationLayer.js",
+      "src/OperationScence/OperationScence.js",
+
+      "src/EventScence/EventLayer.js",
+      "src/EventScence/EventScence.js",
+
+      "src/StartScence/StartLayer.js",
+      "src/StartScence/StartScence.js",
+
+      "src/SelectorScence/SelectorLayer.js",
+      "src/SelectorScence/SelectorScence.js"
     ]
 }

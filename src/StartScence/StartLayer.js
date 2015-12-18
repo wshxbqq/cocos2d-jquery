@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="../../cocos2d-js-v3.8.js" />
+
 var StartLayer = cc.Layer.extend({
 
     ctor: function () {
@@ -9,55 +10,24 @@ var StartLayer = cc.Layer.extend({
 
     init: function () {
 
-        var cfgPanel = $.create("res/Layer_Cfg.json");
+        var cfgPanel = $.create("res/Layer1.json");
         this.addChild(cfgPanel);
 
-        $(cfgPanel, "#Button_Selector").click(function (item) {
-      
-            var buttons = $("#Panel_Color #Button_.*");
-            buttons.fadeOut(0.5, function () {
-                buttons.fadeIn(0.5);
-            });
 
+
+        $(cfgPanel, "#Button_Start").click(function (item) {
+            cc.director.runScene(cc.TransitionSlideInR.create(.3, new MenuScence()));
 
         });
 
-        $(cfgPanel, "#Button_Event").bind("touchstart", function (item) {
-            console.log("touchstart  triggered");
-        }).bind("touchend", function (item) {
-            console.log("touchend  triggered");
-        });
-
-
-        $(cfgPanel, "#Button_Ajax").click(function (item) {
-            $.get("index.html", function (data) {
-                console.log(data);
-            });
-            $.post("index.html", function (data) {
-                console.log(data);
-            });
-        });
-
-
-        $(cfgPanel, "#Button_Animate").click(function (item) {
-            var button = $("#Panel_Color #Button_Animate");
-            var raw = button[0].getPosition();
-            button.animate({ x: 0, y: 0 }, 2, function () {
-                button.animate({ x: raw.x, y: raw.y }, 2, function () {
-                });
-
-            });
-        });
-
-        $(cfgPanel, "#Button_Tool").click(function (item) {
-            var buttons = $("#Panel_Color #Button_.*");
-            buttons.call("setColor", cc.color(255 * Math.random(), 255 * Math.random(), 255 * Math.random()));
-
-            buttons.each(function (n, i) {
-                cc.log(i);
-            });
+        $(cfgPanel, "#Button_GitHub").click(function (item) {
+            if (!cc.sys.isNative) {
+                location.href = "https://github.com/wshxbqq/cocos2d-jquery";
+            }
 
         });
+       
+        
         
 
     },
@@ -68,7 +38,8 @@ var StartLayer = cc.Layer.extend({
 
     onEnter: function () {
         this._super();
-        window.bs = $("Button");
+        
+ 
     },
 
     onExit: function () {
