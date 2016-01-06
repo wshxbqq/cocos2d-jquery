@@ -96,10 +96,7 @@ var AssetsManagerLoaderScene = cc.Scene.extend({
     loadGame: function () {
         cc.loader.loadJs(["src/files.js"], function (err) {
             cc.loader.loadJs(jsFiles, function (err) {
-                cc.LoaderScene.preload(g_resources, function() {
-                    cc.sys.__loadComplate=true;
-                    cc.director.runScene(new StartScence());
-                }, this);
+                cc.director.runScene(new LoadingScene());
             });
         });
     },

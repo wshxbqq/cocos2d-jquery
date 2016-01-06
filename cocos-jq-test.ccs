@@ -44,6 +44,7 @@
         <Project Name="Layer_Operation.csd" Type="Layer" />
         <Project Name="Layer_Ajax.csd" Type="Layer" />
         <Project Name="Layer_Other.csd" Type="Layer" />
+        <Project Name="Layer_Css.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

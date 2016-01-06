@@ -1,5 +1,4 @@
-﻿
-var SelectorScence = cc.Scene.extend({
+﻿var OperationScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         this.init();
@@ -9,7 +8,7 @@ var SelectorScence = cc.Scene.extend({
     },
     onEnter: function () {
         this._super();
-        var layer = new SelectorLayer();
+        var layer = new OperationLayer();
         this.addChild(layer);
     }
 });

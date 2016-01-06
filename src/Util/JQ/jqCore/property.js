@@ -41,8 +41,6 @@ jqCore.prototype.removeAttr = function (name) {
     });
 };
 
-
-
 jqCore.prototype.width = function () {
     var firstElement = this.get(0);
     return firstElement.boundingBox().width;
@@ -51,6 +49,8 @@ jqCore.prototype.height = function () {
     var firstElement = this.get(0);
     return firstElement.boundingBox().height;
 }
+
+
 
 
 

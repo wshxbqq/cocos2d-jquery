@@ -16,7 +16,7 @@ var StartLayer = cc.Layer.extend({
 
 
         $(cfgPanel, "#Button_Start").click(function (item) {
-            cc.director.runScene(cc.TransitionSlideInR.create(.3, new MenuScence()));
+            cc.director.runScene(cc.TransitionSlideInR.create(.3, new MenuScene()));
 
         });
 

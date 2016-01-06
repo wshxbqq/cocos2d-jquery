@@ -58,14 +58,14 @@
             <PreSize X="1.1844" Y="0.3625" />
             <FileData Type="Normal" Path="public/common_pop_bg_wood2.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Text_Label_Event" ActionTag="1889985617" Tag="41" IconVisible="False" LeftMargin="213.9734" RightMargin="226.0266" TopMargin="288.3366" BottomMargin="591.6634" FontSize="80" LabelText="Event" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="200.0000" Y="80.0000" />
+          <AbstractNodeData Name="Text_Label_Event" ActionTag="1889985617" Tag="41" IconVisible="False" LeftMargin="44.9733" RightMargin="55.0267" TopMargin="290.3367" BottomMargin="589.6633" IsCustomSize="True" FontSize="80" LabelText="Event" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="540.0000" Y="80.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="313.9734" Y="631.6634" />
+            <Position X="314.9733" Y="629.6633" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4906" Y="0.6580" />
-            <PreSize X="0.3125" Y="0.0833" />
+            <PrePosition X="0.4921" Y="0.6559" />
+            <PreSize X="0.8438" Y="0.0833" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

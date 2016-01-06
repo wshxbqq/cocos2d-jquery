@@ -1,5 +1,4 @@
-﻿
-var MenuScence = cc.Scene.extend({
+﻿var OtherScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         this.init();
@@ -9,7 +8,7 @@ var MenuScence = cc.Scene.extend({
     },
     onEnter: function () {
         this._super();
-        var layer = new MenuLayer();
+        var layer = new OtherLayer();
         this.addChild(layer);
     }
 });

@@ -1,4 +1,4 @@
-﻿var OperationScence = cc.Scene.extend({
+﻿var AnimateScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         this.init();
@@ -8,7 +8,7 @@
     },
     onEnter: function () {
         this._super();
-        var layer = new OperationLayer();
+        var layer = new AnimateLayer();
         this.addChild(layer);
     }
 });

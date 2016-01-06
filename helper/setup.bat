@@ -1,0 +1,1 @@
+npm install uglify-js q anbu node-pngquant-native -s --registry https://registry.npm.taobao.org info underscore 

@@ -1,4 +1,4 @@
-﻿var AttrScence = cc.Scene.extend({
+﻿var AttrScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         this.init();

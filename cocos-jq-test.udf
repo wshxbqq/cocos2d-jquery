@@ -11,8 +11,16 @@
       <Value ctype="TabsInfo">
         <OpenedDocuments>
           <FilePathData Path="Layer_Menu.csd" />
+          <FilePathData Path="Layer1.csd" />
+          <FilePathData Path="Layer_Selector.csd" />
+          <FilePathData Path="Layer_Other.csd" />
+          <FilePathData Path="Layer_Operation.csd" />
+          <FilePathData Path="Layer_Event.csd" />
+          <FilePathData Path="Layer_Css.csd" />
+          <FilePathData Path="Layer_Animate.csd" />
+          <FilePathData Path="Layer_Ajax.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="Layer_Menu.csd" />
+        <ActiveDocument Path="Layer_Css.csd" />
       </Value>
     </Item>
   </Properties>
