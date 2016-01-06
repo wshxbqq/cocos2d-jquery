@@ -42,16 +42,32 @@
             <PreSize X="0.9438" Y="0.3125" />
             <FileData Type="Normal" Path="public/popup_bg.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Text_Code" ActionTag="2067763961" Tag="76" IconVisible="False" LeftMargin="51.2059" RightMargin="48.7941" TopMargin="424.5999" BottomMargin="312.4001" IsCustomSize="True" FontSize="24" LabelText="//cocos-css 示例&#xA;$(&quot;#title&quot;).addClass(&quot;animation1&quot;);&#xA;//详见  res/ui.css&#xA;.animate1{&#xA;    repet:3;&#xA;	action:moveBy(1,cc.p(100,100))+rotateBy(1,50),moveBy(1,cc.p(-100,-100))+rotateBy(1,-50);&#xA;}&#xA;" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="540.0000" Y="223.0000" />
-            <AnchorPoint ScaleY="1.0000" />
-            <Position X="51.2059" Y="535.4001" />
+          <AbstractNodeData Name="ScrollView_1" ActionTag="-574139617" Tag="19" IconVisible="False" LeftMargin="37.8749" RightMargin="42.1251" TopMargin="414.5090" BottomMargin="315.4910" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="Vertical" ctype="ScrollViewObjectData">
+            <Size X="560.0000" Y="230.0000" />
+            <Children>
+              <AbstractNodeData Name="Text_Code" ActionTag="2067763961" Tag="76" IconVisible="False" LeftMargin="8.8307" RightMargin="11.1693" TopMargin="1.2745" BottomMargin="47.7255" IsCustomSize="True" FontSize="24" LabelText="//cocos-css 示例&#xA;$(&quot;#title&quot;).addClass(&quot;animation1&quot;);&#xA;//详见  res/ui.css&#xA;.animate1{&#xA;    repet:3;&#xA;	action:moveBy(1,cc.p(100,100))+rotateBy(1,50),moveBy(1,cc.p(-100,-100))+rotateBy(1,-50);}" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="540.0000" Y="251.0000" />
+                <AnchorPoint ScaleY="1.0000" />
+                <Position X="8.8307" Y="298.7255" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="0" G="0" B="0" />
+                <PrePosition X="0.0158" Y="0.9958" />
+                <PreSize X="0.9643" Y="0.8367" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+            </Children>
+            <AnchorPoint />
+            <Position X="37.8749" Y="315.4910" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.0800" Y="0.5577" />
-            <PreSize X="0.8438" Y="0.2323" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.0592" Y="0.3286" />
+            <PreSize X="0.8750" Y="0.2396" />
+            <SingleColor A="255" R="255" G="150" B="100" />
+            <FirstColor A="255" R="255" G="150" B="100" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+            <InnerNodeSize Width="560" Height="300" />
           </AbstractNodeData>
           <AbstractNodeData Name="Button_Back" ActionTag="-2103482410" Tag="78" IconVisible="False" LeftMargin="15.0337" RightMargin="509.9663" TopMargin="20.4916" BottomMargin="843.5084" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="85" Scale9Height="74" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="115.0000" Y="96.0000" />

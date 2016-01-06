@@ -57,7 +57,7 @@ cc.game.onStart = function () {
 
 	cc.view.enableAutoFullScreen(false);
     cc.view.adjustViewPort(true);
-    cc.view.setDesignResolutionSize(640, 1000, cc.ResolutionPolicy.SHOW_ALL);
+    cc.view.setDesignResolutionSize(640, 960, cc.ResolutionPolicy.SHOW_ALL);
     cc.view.resizeWithBrowserSize(true);
     cc.loader.loadJs(["src/AssetsManager.js"], function (err) {
         var scene = new AssetsManagerLoaderScene();
