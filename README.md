@@ -7,7 +7,34 @@ Now Use Cocos2dx Like JQuery way :)<br>
 ![image](http://wshxbqq-wshxbqq.stor.sinaapp.com/2015-12-18_15-16-44_246___cocosjq1.gif)
 ##安装方法:
   引用 `release/cocos.jquery.min.js` 到你的项目即可
+##新增addClass 将定义的动画写入 res/ui.css 中:
+比如:
+  ```css
+  .animate1{
+    x:150,
+    y:200,
+    repet:3;
+	  action:moveBy(1,cc.p(100,100))+rotateBy(1,50),moveBy(1,cc.p(-100,-100))+rotateBy(1,-50);
+  }
+  ```
+就定义了一个类似css class的状态,
+即 $("#node").addClass("animate1"); 效果近似为下述代码:
+```javascript
+  node.x=150;
+  node.y=200;
+  var a1 = cc.moveBy(1, cc.p(100, 100));
+  var a2 = cc.rotateBy(1, 50);
+  var sp = cc.spawn(a1, a2);
   
+  var a3 = cc.moveBy(1, cc.p(-100, -100));
+  var a4 = cc.rotateBy(1, -50);
+  var sp1 = cc.spawn(a3, a4);
+  
+  var seq = cc.sequence(sp,sp1);
+  
+  node.runAction(seq)
+```
+
 ##如何使用:
 #### 1.使用 `cocos-jquery` 的 selector
 ##### 说明:
