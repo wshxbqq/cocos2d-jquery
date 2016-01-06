@@ -1,4 +1,4 @@
-﻿var EventScence = cc.Scene.extend({
+﻿var CssScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         this.init();
@@ -8,7 +8,7 @@
     },
     onEnter: function () {
         this._super();
-        var layer = new EventLayer();
+        var layer = new CssLayer();
         this.addChild(layer);
     }
 });

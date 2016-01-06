@@ -1,0 +1,11 @@
+﻿.animate1{
+    repet:3;
+	action:moveBy(1,cc.p(100,100))+rotateBy(1,50),moveBy(1,cc.p(-100,-100))+rotateBy(1,-50);
+}
+.animate2{
+	action:tintTo(1,222,111,1),tintTo(1,222,111,2);
+}
+.animate3{
+	action:fadeTo(1,0.5);
+}
+ 
