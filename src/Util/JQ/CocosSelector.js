@@ -24,9 +24,9 @@ function CocosSelector(root, selector) {
 
 
 /**
-*�����Ծʽ���ӹ�ϵ��ѯ
-*�� $("#panel .112")  112������ panel����Ԫ�ص���Ԫ�ص���Ԫ����.
-*���·������һ�� node �Ƿ�����һ�� ����ʽѡ�����ַ���.
+*解决跳跃式父子关系查询
+*如 $("#panel .112")  112可能在 panel的子元素的子元素的子元素里.
+*以下方法检查一个 node 是否满足一个 复合式选择器字符串.
 */
 CocosSelector.nodeMatch = function (node, selector) {
     var result = false;
@@ -77,8 +77,8 @@ CocosSelector.nodeMatch = function (node, selector) {
 
 
 /**
-* �򵥲�ѯһ��node �Ƿ���һ�� ����ѡ����
-* �� #id ����鿴 �� node �Ƿ� name=id
+* 简单查询一个node 是否满一个 单点选择器
+* 如 #id 则仅查看 该 node 是否 name=id
 */
 CocosSelector.singleNodeMatch = function(node, selector) {
     var f = selector[0];
