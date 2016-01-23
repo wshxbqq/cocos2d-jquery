@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer_Menu" Type="Layer" ID="5181d1a6-c263-47eb-8903-dd6b6c1914e9" Version="2.3.3.0" />
+  <PropertyGroup Name="Layer_Menu" Type="Layer" ID="5181d1a6-c263-47eb-8903-dd6b6c1914e9" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

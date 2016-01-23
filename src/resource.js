@@ -13,7 +13,6 @@ var res =
     "res@Layer_Operation.json" : "res/Layer_Operation.json",
     "res@Layer_Other.json"     : "res/Layer_Other.json",
     "res@Layer_Selector.json"  : "res/Layer_Selector.json",
-    "res@MainScene.json"       : "res/MainScene.json",
     "res@ui.css"               : "res/ui.css",
     "Default"                  : {
         "res@Default@Button_Disable.png" : "res/Default/Button_Disable.png",

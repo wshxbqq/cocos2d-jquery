@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer_Animate" Type="Layer" ID="32a7352a-c1df-4413-8318-b5797c2fb9d5" Version="2.3.3.0" />
+  <PropertyGroup Name="Layer_Animate" Type="Layer" ID="32a7352a-c1df-4413-8318-b5797c2fb9d5" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

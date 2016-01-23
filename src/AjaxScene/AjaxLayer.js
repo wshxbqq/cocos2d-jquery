@@ -15,7 +15,7 @@ var AttrLayer = cc.Layer.extend({
         $textLabel = $(panel, "#Text_Code");
 
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
         });
 
         $(panel, "#Button_Ajax").click(function (e) {

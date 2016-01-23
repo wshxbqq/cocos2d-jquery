@@ -17,7 +17,7 @@ var OperationLayer = cc.Layer.extend({
         $stage = $(panel, "#Panel_Stage");
 
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
         });
 
         function createBear() {

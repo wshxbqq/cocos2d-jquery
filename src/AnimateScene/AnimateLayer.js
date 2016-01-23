@@ -15,7 +15,7 @@ var AnimateLayer = cc.Layer.extend({
         $textLabel = $(panel, "#Text_Code");
 
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
         });
 
         $(panel, "#Button_FadeIn").click(function (e) {

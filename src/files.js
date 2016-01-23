@@ -6,7 +6,6 @@ var jsFiles = [
 "src/Util/EightSprite.js",
 "src/Util/underscore.js",
 "src/Util/util.js",
-"src/Util/pomelo/pomelo-cocos2d-js.js",
 "src/Util/JQ/CocosSelector.js",
 "src/Util/JQ/JQ.js",
 "src/Util/JQ/JQCore.js",

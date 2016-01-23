@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer_Operation" Type="Layer" ID="53a7a010-741e-407a-9b05-300360907b85" Version="2.3.3.0" />
+  <PropertyGroup Name="Layer_Operation" Type="Layer" ID="53a7a010-741e-407a-9b05-300360907b85" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -9,7 +9,7 @@
           <AbstractNodeData Name="Panel_1" ActionTag="1776212343" Tag="57" IconVisible="False" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="640" Scale9Height="960" ctype="PanelObjectData">
             <Size X="640.0000" Y="960.0000" />
             <Children>
-              <AbstractNodeData Name="Panel_Stage" ActionTag="111518708" Tag="64" IconVisible="False" LeftMargin="79.8879" RightMargin="60.1121" TopMargin="129.3047" BottomMargin="330.6953" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="44" RightEage="44" TopEage="34" BottomEage="34" Scale9OriginX="44" Scale9OriginY="34" Scale9Width="46" Scale9Height="38" ctype="PanelObjectData">
+              <AbstractNodeData Name="Panel_Stage" ActionTag="111518708" Tag="64" IconVisible="False" LeftMargin="79.8879" RightMargin="60.1121" TopMargin="129.3047" BottomMargin="330.6953" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="44" RightEage="44" TopEage="34" BottomEage="34" Scale9OriginX="44" Scale9OriginY="34" Scale9Width="46" Scale9Height="38" ctype="PanelObjectData">
                 <Size X="500.0000" Y="500.0000" />
                 <AnchorPoint />
                 <Position X="79.8879" Y="330.6953" />

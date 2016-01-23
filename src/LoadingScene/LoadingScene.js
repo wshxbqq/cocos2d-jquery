@@ -9,7 +9,8 @@
     },
     onEnter: function () {
         this._super();
-        cc.LoaderScene.preload(Util.getResPackArr(res), function () {
+        var resPack=Util.getResPackArr(res);
+        cc.LoaderScene.preload(resPack, function () {
             cc.sys.__loadComplate = true;
             cc.director.runScene(new StartScene());
         }, this);

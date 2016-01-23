@@ -8,13 +8,14 @@ var EventLayer = cc.Layer.extend({
     },
 
     init: function () {
-
+        this._super();
         var panel = $.create("res/Layer_Event.json");
         this.addChild(panel);
 
 
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
+
         });
 
         var $eventTxt = $(panel, "#Text_Label_Event");
@@ -33,6 +34,7 @@ var EventLayer = cc.Layer.extend({
     },
     
     update: function (dt) {
+        this._super();
         var _this = this;
     },
 

@@ -9,11 +9,11 @@ var StartLayer = cc.Layer.extend({
     },
 
     init: function () {
-
+        this._super();
         var cfgPanel = $.create("res/Layer1.json");
         this.addChild(cfgPanel);
 
-
+  
 
         $(cfgPanel, "#Button_Start").click(function (item) {
             cc.director.runScene(cc.TransitionSlideInR.create(.3, new MenuScene()));
@@ -33,6 +33,7 @@ var StartLayer = cc.Layer.extend({
     },
     
     update: function (dt) {
+        this._super();
         var _this = this;
     },
 

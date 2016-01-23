@@ -1,10 +1,28 @@
-<UserData Version="2.3.3.0">
+<UserData Version="3.10.0.0">
   <Properties>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Windows" />
+        <LastRunType Value="Mac" />
+      </Value>
+    </Item>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.cocosjqtest" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="cocos-jq-test iOS" />
+        <iOS_BundleID Value="iPhone Developer: wang shaoxing (3VWXA7P7XS)" />
+        <Platform Value="None" />
+        <RunPlatform Value="Mac" />
+        <FrameworkVersion Value="cocos2d-x-3.8" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
     <Item Key="TabsParamsKey">
@@ -20,7 +38,7 @@
           <FilePathData Path="Layer_Animate.csd" />
           <FilePathData Path="Layer_Ajax.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="Layer_Css.csd" />
+        <ActiveDocument Path="Layer1.csd" />
       </Value>
     </Item>
   </Properties>

@@ -6,6 +6,7 @@ var MenuScene = cc.Scene.extend({
         return true;
     },
     init: function () {
+        
     },
     onEnter: function () {
         this._super();

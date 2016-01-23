@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer_Selector" Type="Layer" ID="6d7512c3-f7b7-4dd8-87a2-a9fa1dc6f70e" Version="2.3.3.0" />
+  <PropertyGroup Name="Layer_Selector" Type="Layer" ID="6d7512c3-f7b7-4dd8-87a2-a9fa1dc6f70e" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

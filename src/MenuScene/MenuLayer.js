@@ -48,13 +48,11 @@ var MenuLayer = cc.Layer.extend({
     },
 
     onEnter: function () {
-        this._super();
-       
+       this._super();
     
     },
 
     onExit: function () {
-        this._super();
     }
 
 });

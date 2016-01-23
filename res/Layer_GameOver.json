@@ -1,6 +1,6 @@
 {
   "ID": "0f690901-ad88-4f2d-82bf-4b98c23355fb",
-  "Version": "2.3.2.3",
+  "Version": "3.10.0.0",
   "Name": "Layer_GameOver",
   "Content": {
     "Content": {
@@ -15,6 +15,7 @@
         "Tag": 22,
         "Children": [
           {
+            "ClipAble": false,
             "BackColorAlpha": 178,
             "ComboBoxIndex": 1,
             "SingleColor": {
@@ -543,7 +544,7 @@
         "Default/Button_Normal.png",
         "Default/Button_Press.png"
       ],
-      "ctype": "GameProjectData"
+      "ctype": "GameFileData"
     }
   },
   "Type": "Layer"

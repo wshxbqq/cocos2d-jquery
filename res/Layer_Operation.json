@@ -1,6 +1,6 @@
 {
   "ID": "53a7a010-741e-407a-9b05-300360907b85",
-  "Version": "2.3.3.0",
+  "Version": "3.10.0.0",
   "Name": "Layer_Operation",
   "Content": {
     "Content": {
@@ -59,6 +59,7 @@
             "Tag": 57,
             "Children": [
               {
+                "ClipAble": false,
                 "BackColorAlpha": 102,
                 "FileData": {
                   "Type": "Normal",

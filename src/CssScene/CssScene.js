@@ -5,6 +5,7 @@
         return true;
     },
     init: function () {
+        this._super();
     },
     onEnter: function () {
         this._super();

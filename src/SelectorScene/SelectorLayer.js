@@ -19,10 +19,10 @@ var SelectorLayer = cc.Layer.extend({
         var a2 = cc.scaleTo(0.2, 0.8);
         var seq = cc.sequence(a1, a2);
         var rep = cc.repeatForever(seq);
-        
+        rep.retain();
         
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
         });
 
         //$("#.*red") 选择所有红色的.
@@ -77,6 +77,7 @@ $("#Button_3").click(function (e) {\n\
 
         //$("#.*red").not("#.*heart_red") 选择所有红色非心形的精灵.
         $(panel, "#Button_4").click(function (e) {
+            
             _this.clearAllAction();
             $(panel,"#.*red").not("#.*heart_red").each(function (n, i) {
                 i.runAction(rep.clone());

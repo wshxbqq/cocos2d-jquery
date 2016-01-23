@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer_Ajax" Type="Layer" ID="9ff268cc-b2cc-4814-878e-fbfbe46bafaa" Version="2.3.3.0" />
+  <PropertyGroup Name="Layer_Ajax" Type="Layer" ID="9ff268cc-b2cc-4814-878e-fbfbe46bafaa" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

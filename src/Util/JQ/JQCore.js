@@ -1,29 +1,31 @@
- 
+
 var jqCore = function (root, selector) {
     var _this = this;
     this.items = [];
-
-    var tps = Object.prototype.toString.call(root) + "_" + Object.prototype.toString.call(selector);
+    var tps = typeof(root) + "_" + typeof(selector);
     switch (tps) {
-        case "[object String]_[object Undefined]":
+        case "string_undefined":
             this.selector = root;
             this.root = cc.director.getRunningScene();
             this.items = CocosSelector(this.root, this.selector);
             ; break;
-        case "[object Object]_[object Undefined]":
-            this.items = [root];
+
+        case "object_undefined":
+            var objInfo=Object.prototype.toString.call(root)
+            if(objInfo=="[object Array]"){
+                this.items = root;
+            }else{
+                this.items = [root];
+            }
             ; break;
-        case "[object Array]_[object Undefined]":
-            this.items = root;
-            ; break;
-        case "[object Object]_[object String]":
+
+        case "object_string":
             this.selector = selector;
             this.root = root;
             this.items = CocosSelector(this.root, this.selector);
             ; break;
-        case "[object Undefined]_[object Undefined]":
 
-            ;break;
+        case "undefined_undefined":;break;
         default: return; break;
 
     }

@@ -3,6 +3,7 @@
     if (Root.CSS) {
         return;
     }
+
     Root.CSS = {};
     var rawCss = cc.loader.getRes("res/ui.css");
     if (rawCss) {
@@ -39,7 +40,6 @@
                     } else {
                         Root.CSS[className][ruleName] = $.initCss.cocosCssOriented.property(ruleTxt)
                     }
-                    
                 }
             })
         });
@@ -87,7 +87,8 @@ $.initCss.cocosCssOriented["action"] = function (ruleTxt) {
     });
 
 
-    var finalAction = cc.sequence.apply(this, actions)
+    var finalAction = cc.sequence.apply(this, actions);
+    finalAction.retain();
     return finalAction;
 }
 
@@ -118,3 +119,18 @@ $.initCss.acceptCss = function (node, className) {
         
     }
 }
+
+
+/*
+    注册 css文件的loader
+*/
+
+cc.loader.register(".css", {
+        load: function (realUrl, url, res, cb) {
+            if(cc.sys.isNative){
+                return  jsb.fileUtils.getStringFromFile(realUrl);
+            }else{
+                return  cc.loader.loadTxt(realUrl, cb);
+            }
+        }
+    });

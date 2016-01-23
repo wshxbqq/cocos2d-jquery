@@ -4,5 +4,4 @@
         $.initCss.acceptCss(i, className);
 
     })
-
 }

@@ -11,9 +11,7 @@ function CocosSelector(root, selector) {
         }
         var childs = node.getChildren();
         for (var i = 0; i < childs.length; i++) {
-            
             loop(childs[i]);
-
         }
     }
     loop(root);

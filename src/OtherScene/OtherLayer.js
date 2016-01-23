@@ -16,13 +16,13 @@ var OtherLayer = cc.Layer.extend({
         $textLabel = $(panel, "#Text_Code");
 
         $(panel, "#Button_Back").click(function (e) {
-            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuLayer()));
+            cc.director.runScene(cc.TransitionSlideInL.create(.3, new MenuScene()));
         });
 
 
         $(panel, "#Button_Each").click(function (e) {
             $(panel, "#Button_.*").each(function (n, i) {
-                console.log(i);
+                cc.log(i);
             });
             $textLabel[0].setString(
 '//$(selector).each(callBack); \n\n\
